@@ -21,5 +21,16 @@ int main() {
         printf("Cima, Direita\n");
         j++;  // Incrementa o contador
     }
+    printf("\n");
+
+    // Movimento da Rainha: 8 casas para a esquerda
+    int movimentoRainha = 8;  // Quantidade de casas que a Rainha vai se mover
+    printf("Movimento da Rainha:\n");
+    int k = 1;  // Variável de controle para o do-while
+    do {
+        printf("Esquerda\n");
+        k++;  // Incrementa o contador
+    } while(k <= movimentoRainha);
+    
     return 0;
 }
